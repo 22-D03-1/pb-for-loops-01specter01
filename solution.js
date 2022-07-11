@@ -1,25 +1,25 @@
-// //1
-// for (x = 1; x <= 20; x++) {
-//     console.log("1.", x);
-// }
+//1
+for (x = 1; x <= 20; x++) {
+    console.log("1.", x);
+}
 
-// //2
-// for (let beer = 1; beer < 6; beer++) {
-//     if (beer === 1) {
-//         console.log("There is ", beer, " bottle of beer on the wall.");
-//     } else if (beer >= 2) {
-//         console.log("There are ", beer, " bottles of beer on the wall");
-//     }
-// }
+//2
+for (let beer = 1; beer < 6; beer++) {
+    if (beer === 1) {
+        console.log("There is ", beer, " bottle of beer on the wall.");
+    } else if (beer >= 2) {
+        console.log("There are ", beer, " bottles of beer on the wall");
+    }
+}
 
-// //3
-// for (let count = 0; count < 21; count++) {
-//     if (count % 2 === 0) {
-//         console.log(count, " is even");
-//     } else {
-//         console.log(count, " is odd");
-//     }
-// }
+//3
+for (let count = 0; count < 21; count++) {
+    if (count % 2 === 0) {
+        console.log(count, " is even");
+    } else {
+        console.log(count, " is odd");
+    }
+}
 
 //4
 
@@ -52,3 +52,4 @@ for (let z = 1; z <= 1000; z++) {
         console.log(z);
     }
 }
+const total = z;
