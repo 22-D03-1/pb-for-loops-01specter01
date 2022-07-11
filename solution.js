@@ -45,4 +45,9 @@ for (let two = 1; two <= 100; two++) {
     }
 }
 
-//
+//6
+
+for (let z = 1; z <= 1000; z++) {
+    math.sum(z % 3 === 0 && z % 5 === 0);
+    console.log(sum.z);
+}
