@@ -1,7 +1,10 @@
 //1
-for (x = 1; x <= 20; x++) {
-    console.log("1.", x);
+
+let result = 0;
+for (let x = 1; x <= 20; x++) {
+    result += x;
 }
+console.log(result);
 
 //2
 for (let beer = 1; beer < 6; beer++) {
@@ -35,21 +38,19 @@ for (let one = 1; one <= 10; one++) {
 
 //5
 for (let two = 1; two <= 100; two++) {
-    if (two % 3 === 0) {
-        console.log("Fizz");
+    if (two % 3 === 0 && two % 5 === 0) {
+        console.log("FizzBuzz");
     } else if (two % 5 === 0) {
         console.log("Buzz");
-    } else if (two % 3 === 0 && two % 5 === 0);
-    {
-        console.log("FizzBuzz");
+    } else if (two % 3 === 0) {
+        console.log("Fizz");
+    } else {
+        console.log(two);
     }
 }
 
 //6
 
-for (let z = 1; z <= 1000; z++) {
-    if (z % 3 === 0 && z % 5 === 0) {
-        console.log(z);
-    }
+for (let z = 100; z <= 1000; z += 100) {
+    console.log(z);
 }
-const total = z;
